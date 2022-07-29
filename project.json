@@ -4,6 +4,7 @@
   "main": "Main.xaml",
   "dependencies": {
     "Git": "[1.0.0]",
+    "UiPath.Database.Activities": "[1.6.1]",
     "UiPath.Excel.Activities": "[2.8.3-beta.851189]",
     "UiPath.Mail.Activities": "[1.8.3-beta.850998]",
     "UiPath.PDF.Activities": "[3.6.0]",

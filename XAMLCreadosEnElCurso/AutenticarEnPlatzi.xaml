@@ -7,7 +7,7 @@
   <this:AutenticarEnPlatzi.in_browser>
     <InArgument x:TypeArguments="ui:Browser" />
   </this:AutenticarEnPlatzi.in_browser>
-  <sap:VirtualizedContainerService.HintSize>390,996</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>390,857</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="17">
@@ -31,7 +31,7 @@
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
-    <scg:List x:TypeArguments="AssemblyReference" Capacity="12">
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="24">
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
       <AssemblyReference>System</AssemblyReference>
@@ -44,22 +44,16 @@
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,791" sap2010:WorkflowViewState.IdRef="Sequence_19">
+  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,692" sap2010:WorkflowViewState.IdRef="Sequence_19">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <x:Boolean x:Key="IsPinned">False</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:NavigateTo Browser="[in_browser]" DisplayName="Navigate To" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="NavigateTo_1" Url="platzi.com">
-      <sap:WorkflowViewStateService.ViewState>
-        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-        </scg:Dictionary>
-      </sap:WorkflowViewStateService.ViewState>
-    </ui:NavigateTo>
     <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click en inicio de sesiòn" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT">
       <ui:Click.CursorPosition>
         <ui:CursorPosition Position="Center">
@@ -72,7 +66,7 @@
         </ui:CursorPosition>
       </ui:Click.CursorPosition>
       <ui:Click.Target>
-        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ea54d172-dc28-462d-b56c-6cd694f5a096" InformativeScreenshot="f47582137199c1d47c2b6a7bf42f73f0" Selector="&lt;html app='chrome.exe' title='Platzi: ‎Cursos Online Profesionales de Tecnología' /&gt;&lt;webctrl aaname='Iniciar sesión' tag='A' /&gt;">
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ea54d172-dc28-462d-b56c-6cd694f5a096" InformativeScreenshot="7a7a447d94cc013b2e412c4da93a2592" Selector="&lt;html app='firefox.exe' title='Platzi: ‎Cursos Online Profesionales de Tecnología' /&gt;&lt;webctrl aaname='Iniciar sesión' tag='A' /&gt;">
           <ui:Target.TimeoutMS>
             <InArgument x:TypeArguments="x:Int32" />
           </ui:Target.TimeoutMS>
@@ -89,7 +83,7 @@
     </ui:Click>
     <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Escribir usuario" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_2" Text="[varMail]">
       <ui:TypeInto.Target>
-        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f99c8739-2157-4fb4-8797-65a25b3339ba" InformativeScreenshot="7278c661b5986923c7e8cdecce16fc0a" Selector="&lt;html app='chrome.exe' title='Log in | Platzi' /&gt;&lt;webctrl name='email' tag='INPUT' /&gt;">
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f99c8739-2157-4fb4-8797-65a25b3339ba" InformativeScreenshot="58d5c80dfc2be2d472248b61ceb4dc23" Selector="&lt;html app='firefox.exe' title='Log in | Platzi' /&gt;&lt;webctrl name='email' tag='INPUT' /&gt;">
           <ui:Target.TimeoutMS>
             <InArgument x:TypeArguments="x:Int32" />
           </ui:Target.TimeoutMS>
@@ -106,7 +100,7 @@
     </ui:TypeInto>
     <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Escribir contraseña" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_3" Text="[varPassword]">
       <ui:TypeInto.Target>
-        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="5074af88-d7b5-4508-a6f2-027dd64f7162" InformativeScreenshot="8aa7733a2f360043df3bbcaece9a11e1" Selector="&lt;html app='chrome.exe' title='Log in | Platzi' /&gt;&lt;webctrl name='password' tag='INPUT' /&gt;">
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="5074af88-d7b5-4508-a6f2-027dd64f7162" InformativeScreenshot="3d2e21b24ba1a3d5370399f019e67aaf" Selector="&lt;html app='firefox.exe' title='Log in | Platzi' /&gt;&lt;webctrl name='password' tag='INPUT' /&gt;">
           <ui:Target.TimeoutMS>
             <InArgument x:TypeArguments="x:Int32" />
           </ui:Target.TimeoutMS>
@@ -133,7 +127,7 @@
         </ui:CursorPosition>
       </ui:Click.CursorPosition>
       <ui:Click.Target>
-        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="6e0449db-8edf-422e-978c-904c6f1e5250" InformativeScreenshot="e865ce331ab93fd2f3f7bb0cb35cc3ad" Selector="&lt;html app='chrome.exe' title='Log in | Platzi' /&gt;&lt;webctrl aaname='Inicia sesión' tag='SPAN' /&gt;">
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="6e0449db-8edf-422e-978c-904c6f1e5250" InformativeScreenshot="195046de63938e4da17a55d09a1475d9" Selector="&lt;html app='firefox.exe' title='Log in | Platzi' /&gt;&lt;webctrl aaname='Inicia sesión' tag='SPAN' /&gt;">
           <ui:Target.TimeoutMS>
             <InArgument x:TypeArguments="x:Int32" />
           </ui:Target.TimeoutMS>

@@ -2,6 +2,35 @@
   "Packages": [
     {
       "Package": {
+        "Id": "Git",
+        "Version": "1.0.0"
+      },
+      "Assemblies": [],
+      "Path": "C:\\Users\\mOi\\.nuget\\packages\\git\\1.0.0"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Database.Activities",
+        "Version": "1.6.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\mOi\\.nuget\\packages\\oracle.manageddataaccess/19.11.0\\lib/net40/Oracle.ManagedDataAccess.dll",
+        "C:\\Users\\mOi\\.nuget\\packages\\system.buffers/4.5.1\\lib/net461/System.Buffers.dll",
+        "C:\\Users\\mOi\\.nuget\\packages\\system.data.sqlclient/4.8.2\\lib/net461/System.Data.SqlClient.dll",
+        "C:\\Users\\mOi\\.nuget\\packages\\system.memory/4.5.4\\lib/net461/System.Memory.dll",
+        "C:\\Users\\mOi\\.nuget\\packages\\system.numerics.vectors/4.5.0\\lib/net46/System.Numerics.Vectors.dll",
+        "C:\\Users\\mOi\\.nuget\\packages\\system.resources.extensions/5.0.0\\lib/net461/System.Resources.Extensions.dll",
+        "C:\\Users\\mOi\\.nuget\\packages\\system.runtime.compilerservices.unsafe/4.5.3\\lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "C:\\Users\\mOi\\.nuget\\packages\\uipath.database.activities/1.6.1\\lib/net461/UiPath.Data.ConnectionUI.Dialog.dll",
+        "C:\\Users\\mOi\\.nuget\\packages\\uipath.database.activities/1.6.1\\lib/net461/UiPath.Database.Activities.Design.dll",
+        "C:\\Users\\mOi\\.nuget\\packages\\uipath.database.activities/1.6.1\\lib/net461/UiPath.Database.Activities.dll",
+        "C:\\Users\\mOi\\.nuget\\packages\\uipath.database.activities/1.6.1\\lib/net461/UiPath.Database.dll",
+        "C:\\Users\\mOi\\.nuget\\packages\\uipath.database.activities/1.6.1\\lib/net461/runtimes/win-x86/native/sni.dll"
+      ],
+      "Path": "C:\\Users\\mOi\\.nuget\\packages\\uipath.database.activities\\1.6.1"
+    },
+    {
+      "Package": {
         "Id": "UiPath.Excel.Activities",
         "Version": "2.8.3-beta.851189"
       },
@@ -40,6 +69,33 @@
         "C:\\Users\\mOi\\.nuget\\packages\\uipath.mail.activities/1.8.3-beta.850998\\lib/net461/UiPath.Mail.dll"
       ],
       "Path": "C:\\Users\\mOi\\.nuget\\packages\\uipath.mail.activities\\1.8.3-beta.850998"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.PDF.Activities",
+        "Version": "3.6.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\mOi\\.nuget\\packages\\bitmiracle.docotic.pdf/7.5.11645\\lib/net46/BitMiracle.Docotic.Pdf.dll",
+        "C:\\Users\\mOi\\.nuget\\packages\\bitmiracle.libtiff.net/2.4.649\\lib/net40/BitMiracle.LibTiff.NET.dll",
+        "C:\\Users\\mOi\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\mOi\\.nuget\\packages\\ntextcat/0.3.65\\lib/netstandard2.0/NTextCat.dll",
+        "C:\\Users\\mOi\\.nuget\\packages\\system.collections.immutable/1.5.0\\lib/netstandard2.0/System.Collections.Immutable.dll",
+        "C:\\Users\\mOi\\.nuget\\packages\\system.drawing.common/5.0.2\\lib/net461/System.Drawing.Common.dll",
+        "C:\\Users\\mOi\\.nuget\\packages\\system.drawing.primitives/4.3.0\\lib/net45/System.Drawing.Primitives.dll",
+        "C:\\Users\\mOi\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
+        "C:\\Users\\mOi\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
+        "C:\\Users\\mOi\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\mOi\\.nuget\\packages\\uipath.documentprocessing.contracts/1.14.0\\lib/net461/UiPath.DocumentProcessing.Contracts.dll",
+        "C:\\Users\\mOi\\.nuget\\packages\\uipath.documentunderstanding.digitizer/2.0.0\\lib/net461/UiPath.DocumentUnderstanding.Digitizer.dll",
+        "C:\\Users\\mOi\\.nuget\\packages\\uipath.ocr.contracts/2.11.0\\lib/net461/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\mOi\\.nuget\\packages\\uipath.pdf.activities/3.6.0\\lib/net461/UiPath.PDF.Activities.Design.dll",
+        "C:\\Users\\mOi\\.nuget\\packages\\uipath.pdf.activities/3.6.0\\lib/net461/UiPath.PDF.Activities.dll",
+        "C:\\Users\\mOi\\.nuget\\packages\\uipath.pdf.activities/3.6.0\\lib/net461/UiPath.PDF.Telemetry.dll",
+        "C:\\Users\\mOi\\.nuget\\packages\\uipath.pdf.activities/3.6.0\\lib/net461/UiPath.PDF.dll",
+        "C:\\Users\\mOi\\.nuget\\packages\\uipath.telemetry.client/1.5.3\\lib/net461/TelemetryClient.dll"
+      ],
+      "Path": "C:\\Users\\mOi\\.nuget\\packages\\uipath.pdf.activities\\3.6.0"
     },
     {
       "Package": {
@@ -114,41 +170,6 @@
         "C:\\Users\\mOi\\.nuget\\packages\\uipath.vision/2.0.3-beta.853545\\lib/net461/UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\mOi\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.853586"
-    },
-    {
-      "Package": {
-        "Id": "Git",
-        "Version": "1.0.0"
-      },
-      "Assemblies": [],
-      "Path": "C:\\Users\\mOi\\.nuget\\packages\\git\\1.0.0"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.PDF.Activities",
-        "Version": "3.6.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\mOi\\.nuget\\packages\\bitmiracle.docotic.pdf/7.5.11645\\lib/net46/BitMiracle.Docotic.Pdf.dll",
-        "C:\\Users\\mOi\\.nuget\\packages\\bitmiracle.libtiff.net/2.4.649\\lib/net40/BitMiracle.LibTiff.NET.dll",
-        "C:\\Users\\mOi\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
-        "C:\\Users\\mOi\\.nuget\\packages\\ntextcat/0.3.65\\lib/netstandard2.0/NTextCat.dll",
-        "C:\\Users\\mOi\\.nuget\\packages\\system.collections.immutable/1.5.0\\lib/netstandard2.0/System.Collections.Immutable.dll",
-        "C:\\Users\\mOi\\.nuget\\packages\\system.drawing.common/5.0.2\\lib/net461/System.Drawing.Common.dll",
-        "C:\\Users\\mOi\\.nuget\\packages\\system.drawing.primitives/4.3.0\\lib/net45/System.Drawing.Primitives.dll",
-        "C:\\Users\\mOi\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
-        "C:\\Users\\mOi\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
-        "C:\\Users\\mOi\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\mOi\\.nuget\\packages\\uipath.documentprocessing.contracts/1.14.0\\lib/net461/UiPath.DocumentProcessing.Contracts.dll",
-        "C:\\Users\\mOi\\.nuget\\packages\\uipath.documentunderstanding.digitizer/2.0.0\\lib/net461/UiPath.DocumentUnderstanding.Digitizer.dll",
-        "C:\\Users\\mOi\\.nuget\\packages\\uipath.ocr.contracts/2.11.0\\lib/net461/UiPath.OCR.Contracts.dll",
-        "C:\\Users\\mOi\\.nuget\\packages\\uipath.pdf.activities/3.6.0\\lib/net461/UiPath.PDF.Activities.Design.dll",
-        "C:\\Users\\mOi\\.nuget\\packages\\uipath.pdf.activities/3.6.0\\lib/net461/UiPath.PDF.Activities.dll",
-        "C:\\Users\\mOi\\.nuget\\packages\\uipath.pdf.activities/3.6.0\\lib/net461/UiPath.PDF.dll",
-        "C:\\Users\\mOi\\.nuget\\packages\\uipath.pdf.activities/3.6.0\\lib/net461/UiPath.PDF.Telemetry.dll",
-        "C:\\Users\\mOi\\.nuget\\packages\\uipath.telemetry.client/1.5.3\\lib/net461/TelemetryClient.dll"
-      ],
-      "Path": "C:\\Users\\mOi\\.nuget\\packages\\uipath.pdf.activities\\3.6.0"
     }
   ],
   "Conflicts": [],
@@ -268,14 +289,29 @@
       "Version": "0.3.65",
       "Dependencies": []
     },
+    "Oracle.ManagedDataAccess": {
+      "Id": "Oracle.ManagedDataAccess",
+      "Version": "19.11.0",
+      "Dependencies": []
+    },
     "SharpZipLib": {
       "Id": "SharpZipLib",
       "Version": "1.0.0",
       "Dependencies": []
     },
+    "System.Buffers": {
+      "Id": "System.Buffers",
+      "Version": "4.5.1",
+      "Dependencies": []
+    },
     "System.Collections.Immutable": {
       "Id": "System.Collections.Immutable",
       "Version": "1.5.0",
+      "Dependencies": []
+    },
+    "System.Data.SqlClient": {
+      "Id": "System.Data.SqlClient",
+      "Version": "4.8.2",
       "Dependencies": []
     },
     "System.Drawing.Common": {
@@ -293,6 +329,44 @@
       "Version": "3.0.10",
       "Dependencies": []
     },
+    "System.Memory": {
+      "Id": "System.Memory",
+      "Version": "4.5.4",
+      "Dependencies": [
+        {
+          "Item1": "System.Buffers",
+          "Item2": "[4.5.1, )"
+        },
+        {
+          "Item1": "System.Numerics.Vectors",
+          "Item2": "[4.5.0, )"
+        },
+        {
+          "Item1": "System.Runtime.CompilerServices.Unsafe",
+          "Item2": "[4.5.3, )"
+        }
+      ]
+    },
+    "System.Numerics.Vectors": {
+      "Id": "System.Numerics.Vectors",
+      "Version": "4.5.0",
+      "Dependencies": []
+    },
+    "System.Resources.Extensions": {
+      "Id": "System.Resources.Extensions",
+      "Version": "5.0.0",
+      "Dependencies": [
+        {
+          "Item1": "System.Memory",
+          "Item2": "[4.5.4, )"
+        }
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe": {
+      "Id": "System.Runtime.CompilerServices.Unsafe",
+      "Version": "4.5.3",
+      "Dependencies": []
+    },
     "System.Threading.Tasks.Dataflow": {
       "Id": "System.Threading.Tasks.Dataflow",
       "Version": "5.0.0",
@@ -307,6 +381,24 @@
       "Id": "UiPath",
       "Version": "20.4.7391.34509",
       "Dependencies": []
+    },
+    "UiPath.Database.Activities": {
+      "Id": "UiPath.Database.Activities",
+      "Version": "1.6.1",
+      "Dependencies": [
+        {
+          "Item1": "Oracle.ManagedDataAccess",
+          "Item2": "[19.11.0, )"
+        },
+        {
+          "Item1": "System.Data.SqlClient",
+          "Item2": "[4.8.2, )"
+        },
+        {
+          "Item1": "System.Resources.Extensions",
+          "Item2": "[5.0.0, )"
+        }
+      ]
     },
     "UiPath.DocumentProcessing.Contracts": {
       "Id": "UiPath.DocumentProcessing.Contracts",
@@ -762,6 +854,16 @@
     },
     {
       "Package": {
+        "Id": "Oracle.ManagedDataAccess",
+        "Version": "19.11.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\mOi\\.nuget\\packages\\oracle.manageddataaccess\\19.11.0\\lib\\net40\\Oracle.ManagedDataAccess.dll"
+      ],
+      "Path": "C:\\Users\\mOi\\.nuget\\packages\\oracle.manageddataaccess\\19.11.0"
+    },
+    {
+      "Package": {
         "Id": "SharpZipLib",
         "Version": "1.0.0"
       },
@@ -772,6 +874,16 @@
     },
     {
       "Package": {
+        "Id": "System.Buffers",
+        "Version": "4.5.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\mOi\\.nuget\\packages\\system.buffers\\4.5.1\\lib\\net461\\System.Buffers.dll"
+      ],
+      "Path": "C:\\Users\\mOi\\.nuget\\packages\\system.buffers\\4.5.1"
+    },
+    {
+      "Package": {
         "Id": "System.Collections.Immutable",
         "Version": "1.5.0"
       },
@@ -779,6 +891,16 @@
         "C:\\Users\\mOi\\.nuget\\packages\\system.collections.immutable\\1.5.0\\lib\\netstandard2.0\\System.Collections.Immutable.dll"
       ],
       "Path": "C:\\Users\\mOi\\.nuget\\packages\\system.collections.immutable\\1.5.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Data.SqlClient",
+        "Version": "4.8.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\mOi\\.nuget\\packages\\system.data.sqlclient\\4.8.2\\lib\\net461\\System.Data.SqlClient.dll"
+      ],
+      "Path": "C:\\Users\\mOi\\.nuget\\packages\\system.data.sqlclient\\4.8.2"
     },
     {
       "Package": {
@@ -812,6 +934,46 @@
     },
     {
       "Package": {
+        "Id": "System.Memory",
+        "Version": "4.5.4"
+      },
+      "Assemblies": [
+        "C:\\Users\\mOi\\.nuget\\packages\\system.memory\\4.5.4\\lib\\net461\\System.Memory.dll"
+      ],
+      "Path": "C:\\Users\\mOi\\.nuget\\packages\\system.memory\\4.5.4"
+    },
+    {
+      "Package": {
+        "Id": "System.Numerics.Vectors",
+        "Version": "4.5.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\mOi\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\lib\\net46\\System.Numerics.Vectors.dll"
+      ],
+      "Path": "C:\\Users\\mOi\\.nuget\\packages\\system.numerics.vectors\\4.5.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Resources.Extensions",
+        "Version": "5.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\mOi\\.nuget\\packages\\system.resources.extensions\\5.0.0\\lib\\net461\\System.Resources.Extensions.dll"
+      ],
+      "Path": "C:\\Users\\mOi\\.nuget\\packages\\system.resources.extensions\\5.0.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Runtime.CompilerServices.Unsafe",
+        "Version": "4.5.3"
+      },
+      "Assemblies": [
+        "C:\\Users\\mOi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.3\\lib\\net461\\System.Runtime.CompilerServices.Unsafe.dll"
+      ],
+      "Path": "C:\\Users\\mOi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.3"
+    },
+    {
+      "Package": {
         "Id": "System.Threading.Tasks.Dataflow",
         "Version": "5.0.0"
       },
@@ -839,6 +1001,19 @@
         "C:\\Users\\mOi\\.nuget\\packages\\uipath\\20.4.7391.34509\\lib\\UiPath.Interop.dll"
       ],
       "Path": "C:\\Users\\mOi\\.nuget\\packages\\uipath\\20.4.7391.34509"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Database.Activities",
+        "Version": "1.6.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\mOi\\.nuget\\packages\\uipath.database.activities\\1.6.1\\lib\\net461\\UiPath.Data.ConnectionUI.Dialog.dll",
+        "C:\\Users\\mOi\\.nuget\\packages\\uipath.database.activities\\1.6.1\\lib\\net461\\UiPath.Database.Activities.Design.dll",
+        "C:\\Users\\mOi\\.nuget\\packages\\uipath.database.activities\\1.6.1\\lib\\net461\\UiPath.Database.Activities.dll",
+        "C:\\Users\\mOi\\.nuget\\packages\\uipath.database.activities\\1.6.1\\lib\\net461\\UiPath.Database.dll"
+      ],
+      "Path": "C:\\Users\\mOi\\.nuget\\packages\\uipath.database.activities\\1.6.1"
     },
     {
       "Package": {
@@ -904,8 +1079,8 @@
       "Assemblies": [
         "C:\\Users\\mOi\\.nuget\\packages\\uipath.pdf.activities\\3.6.0\\lib\\net461\\UiPath.PDF.Activities.Design.dll",
         "C:\\Users\\mOi\\.nuget\\packages\\uipath.pdf.activities\\3.6.0\\lib\\net461\\UiPath.PDF.Activities.dll",
-        "C:\\Users\\mOi\\.nuget\\packages\\uipath.pdf.activities\\3.6.0\\lib\\net461\\UiPath.PDF.dll",
-        "C:\\Users\\mOi\\.nuget\\packages\\uipath.pdf.activities\\3.6.0\\lib\\net461\\UiPath.PDF.Telemetry.dll"
+        "C:\\Users\\mOi\\.nuget\\packages\\uipath.pdf.activities\\3.6.0\\lib\\net461\\UiPath.PDF.Telemetry.dll",
+        "C:\\Users\\mOi\\.nuget\\packages\\uipath.pdf.activities\\3.6.0\\lib\\net461\\UiPath.PDF.dll"
       ],
       "Path": "C:\\Users\\mOi\\.nuget\\packages\\uipath.pdf.activities\\3.6.0"
     },
